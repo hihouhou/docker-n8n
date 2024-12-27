@@ -27,7 +27,7 @@ RUN apt-get update && \
     apt-get install -y nodejs
 #
 #Create n8n user
-RUN adduser --disabled-login --gecos 'N8n' n8n
+RUN adduser --uid 1000 --disabled-login --gecos 'N8n' n8n
 
 # Install n8n
 RUN npm install n8n -g
