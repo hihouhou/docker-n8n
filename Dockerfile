@@ -12,7 +12,7 @@ LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 ENV LANG="C.UTF-8"
 ENV LC_ALL="C.UTF-8"
 ENV NODE_MAJOR=22
-ENV N8N_VERSION=2.3.1
+ENV N8N_VERSION=n8n@2.3.2
 
 # Install curl
 RUN apt-get update && \
